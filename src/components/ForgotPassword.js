@@ -42,7 +42,7 @@ const ForgotPassword = () => {
       <h2 className='text-center'>Forgot Password</h2>
       <form className="mx-auto" style={{ display: 'flex', flexDirection: 'column' }}>
         <div className="form-group mb-3" style={{ textAlign: 'left' }}>
-          <label>Email:</label>
+          <label style={{ padding: '10px 0' }}>Email:</label>
           <input
             type="email"
             className="form-control"
